@@ -11,12 +11,20 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #a4c2d1; /* egg blue */
+    background-color: #a4c2d1;
+    /* egg blue */
 }
 
-h1, h2 {
-    font-family: "DM Serif Display" , serif;
-    color: #184f63; /* dark-blue */
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63;
+    /* dark-blue */
+}
+
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
 }
 
 /* About section */
@@ -26,17 +34,20 @@ h1, h2 {
 
 /* Portfolion */
 #portfolio {
-    background-color: #dbdcde; /* light grey */
+    background-color: #dbdcde;
+    /* light grey */
 }
 
 #portfolio .card-title {
-    color: #1f7798; /* mid-blue */
+    color: #1f7798;
+    /* mid-blue */
     font-size: 1.2rem;
 }
 
 #portfolio .btn-outline-secondary:hover {
     color: white;
-    background-color: #1f7798; /* mid-blue */
+    background-color: #1f7798;
+    /* mid-blue */
 }
 
 #portfolio .card-text {
@@ -54,7 +65,8 @@ h1, h2 {
     background-position: 50% 70%;
     background-size: cover;
     padding: 5% 7%;
-    background-color:  #dbdcde; /* light grey*/
+    background-color: #dbdcde;
+    /* light grey*/
     min-height: 500px;
 }
 
@@ -62,6 +74,7 @@ h1, h2 {
 
 /* Use Bootstrap breakpoint for XL screens */
 @media screen and (min-width: 1200px) {
+
     /* Fixes all portfolio cards being too tall on xl screens */
     #portfolio .card-text {
         min-height: auto;
