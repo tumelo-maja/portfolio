@@ -54,6 +54,19 @@ h2 {
     min-height: 120px;
 }
 
+/* Buttons */
+.custom-button {
+    background-color: #1f7798;
+    /* mid-blue */
+    border-color:  #1f7798;
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    /* mid-blue */
+    border-color:  #1d6d8a;
+}
+
 /* Contact section */
 #contact {
     background-color: white;
